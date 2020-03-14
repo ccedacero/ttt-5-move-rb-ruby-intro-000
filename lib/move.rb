@@ -1,3 +1,11 @@
+def input_to_index(num)
+  puts "Welcome to Tic Tac Toe!"
+  puts "Where would you like to go?"
+  input = num.strip
+  int =  input.to_i
+  input = int + 1
+
+
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
   puts "-----------"
