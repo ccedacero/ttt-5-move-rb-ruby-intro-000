@@ -8,6 +8,7 @@ puts "Welcome to Tic Tac Toe!"
 board = [' ',' ',' ',' ',' ',' ',' ',' ',' ']
 display_board(board)
 puts "Where would you like to go?"
+puts "hint: enter a number from 1 to 9"
 input = gets.strip
 index = input_to_index(input)
 move(board,index)
