@@ -1,7 +1,7 @@
 def input_to_index(num)
   input = num.strip
   int =  input.to_i
-  input = int + 1
+  input = int - 1
 end
 
 def move(board,index,char = 'X')
